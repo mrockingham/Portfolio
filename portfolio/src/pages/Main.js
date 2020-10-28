@@ -1,31 +1,50 @@
 import React from 'react'
 import './main.css'
+import * as ReactBootStrap from 'react-bootstrap'
+import Image from 'react-bootstrap/Image'
+import Profilepic from '../img/mepinkshirt.jpg'
 
 const Main = () => {
     return (
-        <div>
-            <div className = 'grid-container'>
-                <main className= 'user-info'>
-                    <h1>Hi,</h1>
+        <div className='main-body'>
+            <ReactBootStrap.Container className = 'main-contaner' >
+            <ReactBootStrap.Row >
+                <ReactBootStrap.Col className= 'sec-1'>  
+                    <h1 className='sec-hi'>Hi,</h1>
+                    <h2 className='sec-body'>My name is Michael Rockingham. I'm a full-Stack Developoer based out of Orlando, looking to build great projects.
+                    </h2>
+                    <ReactBootStrap.Nav  className='sec-social'>
+                       <ReactBootStrap.Nav.Link href="https://github.com/mrockingham">
+                            <i class="fab fa-github" style={{fontSize: '2rem', color: 'white'}}></i>
+                        </ReactBootStrap.Nav.Link>
+
+                        <ReactBootStrap.Nav.Link href='mailto:mikeydes@gmail.com'>
+                            <i class="far fa-envelope" style={{fontSize: '2rem', color: 'white'}}></i>
+                        </ReactBootStrap.Nav.Link>
+
+                        <ReactBootStrap.Nav.Link href='https://www.linkedin.com/in/michael-rockingham-b86629164/'>
+                        <i class="fab fa-linkedin" style={{fontSize: '2rem', color: 'white'}}></i>
+                        </ReactBootStrap.Nav.Link>
+
+                    </ReactBootStrap.Nav>
+                    <h1 className='sec-bottom'>My work</h1>
+                </ReactBootStrap.Col>
+                <ReactBootStrap.Col className= 'sec-2'  >
                     
-                </main>
-                <section className='sec-1'>
-                    <h2>My name is Michael Rockingham. I'm a full-Stack Developoer based out of Orlando, looking to build great projects. </h2>
-                </section >
-                <section className='sec-2'>
-                    <h2>Contact Me</h2>
-                </section>
-                <header>
-                    <div>Home</div>
-                    <div>Projects</div>
-                    <div>Contact Me</div>
-                    
-                </header>
-                <div className='sec-3'>
-                    
-                </div>
+                    <div className='profile-pic' >
+                    <Image className='pic' src= {Profilepic} roundedCircle   />
+                    </div>
+                </ReactBootStrap.Col>
+               </ReactBootStrap.Row> 
+               <ReactBootStrap.Row>
+                   <ReactBootStrap.Col>
+                   
+                   </ReactBootStrap.Col>
+               </ReactBootStrap.Row>
+             
                 
-            </div>
+            
+            </ReactBootStrap.Container>
         </div>
     )
 }
