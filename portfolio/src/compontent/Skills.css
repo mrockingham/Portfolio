@@ -1,0 +1,38 @@
+.skills{
+    background-color: black;
+    padding-top: 10%;
+}
+.skill-header{
+    text-align: center;
+    margin-right: 5%;
+    color: white;
+    
+}
+
+.skill-name{
+    margin-top: 5%;
+    
+    justify-content: space-between;
+    width: 100%;
+}
+.front-end{
+    width: 100%;
+    padding-bottom: 3%;
+    border-bottom: 1px solid rgba(255,255,255,0.96);
+}
+.back-end{
+    width: 100%;
+    margin-top: 5%;
+    padding-bottom: 3%;
+    border-bottom: 1px solid rgba(255,255,255,0.96);
+}
+.front-end-icons{
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+.back-end-icons{
+    
+    display: flex;
+    justify-content: space-evenly;
+}

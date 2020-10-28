@@ -27,7 +27,7 @@ const Main = () => {
                         </ReactBootStrap.Nav.Link>
 
                     </ReactBootStrap.Nav>
-                    <h1 className='sec-bottom'>My work</h1>
+                    <h1 className='sec-bottom'><i class="fas fa-angle-double-down" style={{fontSize: '3rem', color: 'white'}}></i></h1>
                 </ReactBootStrap.Col>
                 <ReactBootStrap.Col className= 'sec-2'  >
                     

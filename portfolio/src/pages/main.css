@@ -35,8 +35,9 @@
 }
 
 .sec-bottom{
-    margin-top: 50%;
+    margin-top: 25%;
     text-align: right;
+    
 }
 
 @media screen and (max-width: 800px){
