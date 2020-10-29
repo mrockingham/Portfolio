@@ -1,3 +1,42 @@
+.project-header{
+    text-align: center;
+    color: white
+}
 .my-project{
     background-color: black;
+     
+    margin-top: 5%;
+    
 }
+
+.projects-flex1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.p1{
+  margin-top: 5%;
+}
+.p2{
+  margin-top: 5%;
+}
+.p3{
+  margin-top: 5%;
+}
+
+.p4{
+  margin-top: 5%;
+}
+
+/* @media screen and (max-width: 769px){
+  .p2{
+    margin-top: 5%;
+  }
+} */
+
+
+/* @media screen and (max-width: 700px){
+  Card{
+    width: 2rem
+}
+} */
