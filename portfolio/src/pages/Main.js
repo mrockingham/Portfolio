@@ -11,7 +11,7 @@ const Main = () => {
             <ReactBootStrap.Row >
                 <ReactBootStrap.Col className= 'sec-1'>  
                     <h1 className='sec-hi'>Hi,</h1>
-                    <h2 className='sec-body'>My name is Michael Rockingham. I'm a full-Stack Developoer based out of Orlando, looking to build great projects.
+                    <h2 className='sec-body'>My name is Michael Rockingham. I'm a full-Stack Developer based out of Orlando, looking to build great projects.
                     </h2>
                     <ReactBootStrap.Nav  className='sec-social'>
                        <ReactBootStrap.Nav.Link href="https://github.com/mrockingham">
