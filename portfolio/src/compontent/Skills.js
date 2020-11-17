@@ -8,7 +8,7 @@ import Mongo from "../img/mongo.png";
 import firebase from "../img/firebase.png";
 import { motion, useAnimation,
     useViewportScroll  } from "framer-motion";
-    import { useInView } from 'react-intersection-observer';
+    // import { useInView } from 'react-intersection-observer';
 
  const container = {
         hidden: { opacity: 1, scale: 0 },
@@ -45,23 +45,23 @@ import { motion, useAnimation,
 const Skills = () => {
     const controls = useAnimation();
     const { scrollY, scrollYProgress } = useViewportScroll();
-    const [ref, inView] = useInView({
-        threshold: 1,
-      })
+    // const [ref, inView] = useInView({
+    //     threshold: 1,
+    //   })
 
-console.log(inView)
+// console.log(inView)
 
-useEffect(() => {
-    if (inView) {
-      controls.start("visible");
-    }
-  }, [controls, inView]);
+// useEffect(() => {
+//     if (inView) {
+//       controls.start("visible");
+//     }
+//   }, [controls, inView]);
    
   return (
     <ReactBootStrap.Container className="skills">
       <div 
       className="skill-header"
-      inView={inView}
+      
       
       >
         <h1>Skills</h1>
@@ -71,11 +71,11 @@ useEffect(() => {
           <h2
            style={{ color: "white", marginBottom: "2%" }}>Front-End</h2>
           <motion.div
-          ref={ref}
+         
           className="front-end-icons"
-          animate={controls}
           initial="hidden"
-            variants={inView === true?container:container}
+    animate="visible"
+            variants={container}
             
             >
             <motion.i
@@ -120,8 +120,8 @@ useEffect(() => {
            
            className="back-end-icons"
            variants={container2}
-           animate={controls}
            initial="hidden"
+    animate="visible"
            >
             <motion.i
               class="fab fa-node"
