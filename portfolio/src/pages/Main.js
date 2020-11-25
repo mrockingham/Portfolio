@@ -5,6 +5,13 @@ import Image from 'react-bootstrap/Image'
 import Profilepic from '../img/mepinkshirt.jpg'
 
 const Main = () => {
+
+    const scrollToRef = (ref) => window.scrollTo({
+        top: 1010,
+        left: 100,
+        behavior: 'smooth'
+      })
+
     return (
         <div className='main-body'>
             <ReactBootStrap.Container className = 'main-contaner' >
@@ -27,7 +34,7 @@ const Main = () => {
                         </ReactBootStrap.Nav.Link>
 
                     </ReactBootStrap.Nav>
-                    <h1 className='sec-bottom'><i class="fas fa-angle-double-down" style={{fontSize: '3rem', color: 'white'}}></i></h1>
+                    <h1 onClick={scrollToRef} className='sec-bottom'><i class="fas fa-angle-double-down" style={{fontSize: '3rem', color: 'white'}}></i></h1>
                 </ReactBootStrap.Col>
                 <ReactBootStrap.Col className= 'sec-2'  >
                     
