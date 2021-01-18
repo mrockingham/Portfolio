@@ -53,7 +53,7 @@ const MyProject = () => {
             <ReactBootStrap.Card.Body style={{ color: "white", backgroundColor:'black', border:'1px solid'  }}>
               <ReactBootStrap.Card.Title>Amazon Clone</ReactBootStrap.Card.Title>
               <ReactBootStrap.Card.Text  >
-                Amazon like app, built with React, Context-Api, Material-ui, Google Firebase, and Google Authentication .
+                Amazon like app, built with React, Context-Api, Material-ui, Google Firebase, and Google Authentication.
               </ReactBootStrap.Card.Text >
               <div className='button-group'>
               <ReactBootStrap.Button variant="primary">
@@ -100,7 +100,7 @@ const MyProject = () => {
             <ReactBootStrap.Card.Body style={{ color: "white", backgroundColor:'black', border:'1px solid'  }}>
               <ReactBootStrap.Card.Title>Dad's Memory</ReactBootStrap.Card.Title>
               <ReactBootStrap.Card.Text style={{paddingBottom: '10%'}}>
-                Memorial app for my DAd, built with React, Firebase, BootStrap, and Framoer-motion
+                Memorial app for my Dad, built with React, Firebase, BootStrap, and Framoer-motion
               </ReactBootStrap.Card.Text>
               <div className='button-group'>
               <ReactBootStrap.Button variant="primary">
