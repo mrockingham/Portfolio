@@ -26,6 +26,7 @@ const scrollToRef = (ref) => window.scrollTo({
     <ReactBootStrap.Nav style={{fontSize:'2rem', width:'100%', display:'flex', justifyContent:'flex-end',}}>
       
       <ReactBootStrap.Nav.Link  onClick={scrollToRef}  style={{marginRight:'5%', color:'white'}}>Projects</ReactBootStrap.Nav.Link>
+      <ReactBootStrap.Nav.Link  href="https://docs.google.com/document/d/1KPUMMgg27TQGrf_xddJFV2siCKHmHAXTMO3KJcuwh20/edit?usp=sharing"   style={{marginRight:'5%', color:'white'}}>Resume</ReactBootStrap.Nav.Link>
       <ReactBootStrap.Nav.Link  href="About" style={{marginRight:'5%', color:'white'}}>About</ReactBootStrap.Nav.Link>
     </ReactBootStrap.Nav>
   </ReactBootStrap.Navbar.Collapse>

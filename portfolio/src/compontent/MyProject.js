@@ -7,6 +7,7 @@ import conway from '../img/conway.PNG'
 import dad from '../img/dad-app.png'
 import dataTable from '../img/data.PNG'
 import amazonClone from '../img/amazonclone.PNG'
+import HRF from '../img/hrfpic.PNG'
 
 
 
@@ -26,17 +27,17 @@ const MyProject = () => {
           <ReactBootStrap.Card style={{ width: "20rem", border:'none', backgroundColor: 'black' }}>
           <ReactBootStrap.Nav.Link href='https://slack-clone-5d2ef.web.app/File%20browser'>
             
-            <ReactBootStrap.Card.Img variant="top" src={Slack} />
+            <ReactBootStrap.Card.Img variant="top" src={HRF} />
             <ReactBootStrap.Card.Body style={{ color: "white", backgroundColor:'black', border:' 1px solid' }}>
-              <ReactBootStrap.Card.Title>Slack App</ReactBootStrap.Card.Title>
-              <ReactBootStrap.Card.Text style={{paddingBottom: '10%'}}>
-                Slack like app, built using React, Firestore, Google Authentication, SQL
+              <ReactBootStrap.Card.Title>Police Brutality Tracker</ReactBootStrap.Card.Title>
+              <ReactBootStrap.Card.Text >
+                Tracking app  built while working with the Human Rights First org. React, Ant-Design, MapBox, Docker, NodJs, SQL 
               </ReactBootStrap.Card.Text>
               <div className='button-group'>
-              <ReactBootStrap.Button href="https://slack-clone-5d2ef.web.app/File%20browser" variant="primary">
+              <ReactBootStrap.Button href="https://main.d3t9o9zlt9pxgv.amplifyapp.com/" variant="primary">
                 App
               </ReactBootStrap.Button>
-              <ReactBootStrap.Button href="https://github.com/mrockingham/slackClone" variant="primary">
+              <ReactBootStrap.Button href="https://github.com/mrockingham/human-rights-first-be-a" variant="primary">
                 Git
               </ReactBootStrap.Button>
               </div>
@@ -58,7 +59,7 @@ const MyProject = () => {
               <ReactBootStrap.Button variant="primary">
                 App
               </ReactBootStrap.Button>
-              <ReactBootStrap.Button href="https://github.com/mrockingham/fam-app1" variant="primary">
+              <ReactBootStrap.Button href="https://github.com/mrockingham/Amazonclone" variant="primary">
                 Git
               </ReactBootStrap.Button  > 
               </div>
