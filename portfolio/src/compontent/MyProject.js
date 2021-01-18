@@ -31,7 +31,7 @@ const MyProject = () => {
             <ReactBootStrap.Card.Body style={{ color: "white", backgroundColor:'black', border:' 1px solid' }}>
               <ReactBootStrap.Card.Title>Police Brutality Tracker</ReactBootStrap.Card.Title>
               <ReactBootStrap.Card.Text >
-                Tracking app  built while working with the Human Rights First org. React, Ant-Design, MapBox, Docker, NodJs, SQL 
+                Tracking app  built while working with the Human Rights First org. React, Ant-Design, MapBox, Docker, NodeJs, SQL 
               </ReactBootStrap.Card.Text>
               <div className='button-group'>
               <ReactBootStrap.Button href="https://main.d3t9o9zlt9pxgv.amplifyapp.com/" variant="primary">
