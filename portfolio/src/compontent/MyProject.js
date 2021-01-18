@@ -25,7 +25,7 @@ const MyProject = () => {
         <div className='p1'>
             
           <ReactBootStrap.Card style={{ width: "20rem", border:'none', backgroundColor: 'black' }}>
-          <ReactBootStrap.Nav.Link href='https://slack-clone-5d2ef.web.app/File%20browser'>
+          <ReactBootStrap.Nav.Link href='https://main.d3t9o9zlt9pxgv.amplifyapp.com/'>
             
             <ReactBootStrap.Card.Img variant="top" src={HRF} />
             <ReactBootStrap.Card.Body style={{ color: "white", backgroundColor:'black', border:' 1px solid' }}>
