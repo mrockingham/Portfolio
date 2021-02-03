@@ -25,7 +25,7 @@ const MyProject = () => {
         <div className='p1'>
             
           <ReactBootStrap.Card style={{ width: "20rem", border:'none', backgroundColor: 'black' }}>
-          <ReactBootStrap.Nav.Link href='https://main.d3t9o9zlt9pxgv.amplifyapp.com/'>
+          <ReactBootStrap.Nav.Link href='https://a.humanrightsfirst.dev/'>
             
             <ReactBootStrap.Card.Img variant="top" src={HRF} />
             <ReactBootStrap.Card.Body style={{ color: "white", backgroundColor:'black', border:' 1px solid' }}>
@@ -34,7 +34,7 @@ const MyProject = () => {
                 Tracking app  built while working with the Human Rights First org. React, Ant-Design, MapBox, Docker, NodeJs, SQL 
               </ReactBootStrap.Card.Text>
               <div className='button-group'>
-              <ReactBootStrap.Button href="https://main.d3t9o9zlt9pxgv.amplifyapp.com/" variant="primary">
+              <ReactBootStrap.Button href="https://a.humanrightsfirst.dev/" variant="primary">
                 App
               </ReactBootStrap.Button>
               <ReactBootStrap.Button href="https://github.com/mrockingham/human-rights-first-be-a" variant="primary">
