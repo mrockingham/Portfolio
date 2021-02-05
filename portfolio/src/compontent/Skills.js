@@ -80,32 +80,32 @@ useEffect(() => {
             >
             <motion.i
               class="fab fa-html5"
-              style={{ color: "rgb(148,216,45)", fontSize: "3rem" }}
+              style={{ color: "rgb(148,216,45)", fontSize: "3rem", backgroundColor:'rgba(255, 255, 255, 4.055)' }}
               variants={item}
             ></motion.i>
             <motion.i
               class="fab fa-css3-alt"
-              style={{ color: "rgb(21,170,191)", fontSize: "3rem" }}
+              style={{ color: "rgb(21,170,191)", fontSize: "3rem", backgroundColor: 'rgba(255, 255, 255, 0.055)' }}
               variants={item}
             ></motion.i>
             <motion.i
               class="fab fa-js-square"
-              style={{ color: "yellow", fontSize: "3rem" }}
+              style={{ color: "yellow", fontSize: "3rem", backgroundColor:'rgba(255, 255, 255, 0.055)' }}
               variants={item}
             ></motion.i>
             <motion.i
               class="fab fa-react"
-              style={{ color: "rgb(97,219,251)", fontSize: "3rem" }}
+              style={{ color: "rgb(97,219,251)", fontSize: "3rem", backgroundColor:'rgba(255, 255, 255, 0.055)' }}
               variants={item}
             ></motion.i>
             <motion.i
               class="fab fa-bootstrap"
-              style={{ color: "rgb(86,61,124)", fontSize: "3rem" }}
+              style={{ color: "rgb(86,61,124)", fontSize: "3rem", backgroundColor:'rgba(255, 255, 255, 0.055)' }}
               variants={item}
             ></motion.i>
             <motion.i
               class="fab fa-less"
-              style={{ color: "rgb(37,78,133)", fontSize: "3rem" }}
+              style={{ color: "rgb(37,78,133)", fontSize: "3rem", backgroundColor:'rgba(255, 255, 255, 0.055)' }}
               variants={item}
             ></motion.i>
           </motion.div>
@@ -124,7 +124,7 @@ useEffect(() => {
            >
             <motion.i
               class="fab fa-node"
-              style={{ color: "rgb(124,183,1)", fontSize: "4rem" }}
+              style={{ color: "rgb(124,183,1)", fontSize: "4rem", backgroundColor:'rgba(255, 255, 255, 0.055)' }}
               variants={item}
             ></motion.i>
 
@@ -133,7 +133,9 @@ useEffect(() => {
              src={Postgres} alt="postgres logo" />
             <motion.img
             variants={item}
+            style={{backgroundColor:'rgba(255, 255, 255, 0.055)'}}
             src={Mongo} alt="mongo logo" />
+            
             <motion.img
             variants={item}
             src={firebase} alt="firebase logo" />

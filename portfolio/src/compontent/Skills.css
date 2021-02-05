@@ -1,14 +1,23 @@
 .skills{
-    background-color: black;
+  
     padding-top: 10%;
 }
 .skill-header{
     text-align: center;
     margin-right: 5%;
     color: white;
+    font-weight: 800;
+    
     
 }
 
+.skill-header > h1{
+    text-align: center;
+    
+    font-weight: 800;
+    
+    
+}
 .skill-name{
     margin-top: 5%;
     
@@ -19,6 +28,13 @@
     width: 100%;
     padding-bottom: 3%;
     border-bottom: 1px solid rgba(255,255,255,0.96);
+    font-weight: 800;
+}
+.front-end > h2{
+    width: 100%;
+    padding-bottom: 3%;
+    border-bottom: 1px solid rgba(255,255,255,0.96);
+    font-weight: 700;
 }
 .back-end{
     width: 100%;

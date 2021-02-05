@@ -1,43 +1,103 @@
-.project-header{
-    text-align: center;
-    color: white
+.project-header {
+  text-align: center;
+  color: white;
 }
-.my-project{
-    background-color: black;
-     
-    margin-top: 5%;
-    
+.my-project {
+  /* background-color: black;
+      */
+  margin-top: 5%;
 }
 
-.projects-flex1{
+.projects-flex1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
-.p1{
+@media(max-width: 1200px){
+
+  .projects-flex1{
+    flex-direction: column;
+  padding: 0px;
+    /* align-items: center; */
+  }
+}
+.p1 {
+  margin-top: 5%;
+  width: 48%;
+  
+}
+
+.p1-body{
+  color: white;
+  width: 480px ;
+  background-color: rgba(3, 3, 3, 0.357);
+  padding-left: 2%;  
+}
+
+.p1-title{
+  padding-top: 3%;
+  font-weight: 800;
+}
+.p1-info{
+  font-size: 1.5rem;
+  margin-top: 5%
+}
+.p1-button-group{
+  text-align: center;
+  margin-top: 10%;
+  padding-bottom: 5%;
+  padding-right: 2%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.p1-button1{
+  background-color: rgba(10, 10, 10, 0);
+  
+  box-shadow: 5px 5px 11px -2px #707070;
+  width: 55px;
+  height: 50px;
+  border-radius: 10%;
+  color: white;
+}
+.p1-button2{
+  background-color: rgba(10, 10, 10, 0);
+  box-shadow: 5px 5px 11px -2px #707070;
+  width: 55px;
+  height: 50px;
+  border-radius: 10%;
+  color: white;
+}
+.p1-image{
+  width: 480px;
+  height: 400px;
+}
+h2{
+  color: white;
+}
+.p2 {
   margin-top: 5%;
 }
-.p2{
-  margin-top: 5%;
+.Card {
+  background-color: black;
 }
-img.card-img-top{
+img.card-img-top {
   height: 180px;
 }
-div.card-body{
-  height: 220px
+div.card-body {
+  height: 220px;
 }
-.p3{
+.p3 {
   margin-top: 5%;
 }
 
-.p4{
+.p4 {
   margin-top: 5%;
 }
-.p5{
+.p5 {
   margin-top: 5%;
 }
 
-.button-group{
+.button-group {
   display: flex;
   justify-content: space-evenly;
 }
@@ -47,7 +107,6 @@ div.card-body{
     margin-top: 5%;
   }
 } */
-
 
 /* @media screen and (max-width: 700px){
   Card{

@@ -22,15 +22,15 @@ const Main = () => {
                     </h2>
                     <ReactBootStrap.Nav  className='sec-social'>
                        <ReactBootStrap.Nav.Link href="https://github.com/mrockingham">
-                            <i class="fab fa-github" style={{fontSize: '2rem', color: 'white'}}></i>
+                            <i class="fab fa-github" style={{fontSize: '2.5rem', color: 'white'}}></i>
                         </ReactBootStrap.Nav.Link>
 
                         <ReactBootStrap.Nav.Link href='mailto:mikeydes@gmail.com'>
-                            <i class="far fa-envelope" style={{fontSize: '2rem', color: 'white'}}></i>
+                            <i class="far fa-envelope" style={{fontSize: '2.5rem', color: 'white'}}></i>
                         </ReactBootStrap.Nav.Link>
 
                         <ReactBootStrap.Nav.Link href='https://www.linkedin.com/in/michael-rockingham-b86629164/'>
-                        <i class="fab fa-linkedin" style={{fontSize: '2rem', color: 'white'}}></i>
+                        <i class="fab fa-linkedin" style={{fontSize: '2.5rem', color: 'white'}}></i>
                         </ReactBootStrap.Nav.Link>
 
                     </ReactBootStrap.Nav>
