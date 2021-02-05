@@ -24,14 +24,23 @@
   }
 
  div .p1-image{
-width: 380px;
+width: 300px;
 height: 80%;
   }
 
  div .p1-body{
-    width: 380px;
+    width: 300px;
 
   }
+}
+@media(max-width: 480px){
+ div .projects-flex1{
+  /* text-align: center; */
+  align-items: flex-start;
+    /* margin: auto; */
+  }
+
+
 }
 .p1 {
   margin-top: 5%;
