@@ -16,9 +16,21 @@
 @media(max-width: 1200px){
 
   .projects-flex1{
+    /* text-align: center; */
     flex-direction: column;
   padding: 0px;
-    /* align-items: center; */
+    align-items: center;
+    /* margin: auto; */
+  }
+
+ div .p1-image{
+width: 380px;
+height: 80%;
+  }
+
+ div .p1-body{
+    width: 380px;
+
   }
 }
 .p1 {
@@ -69,7 +81,7 @@
 }
 .p1-image{
   width: 480px;
-  height: 400px;
+  height: 30vh;
 }
 h2{
   color: white;
