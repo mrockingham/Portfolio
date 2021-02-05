@@ -37,6 +37,7 @@ height: 80%;
  div .projects-flex1{
   /* text-align: center; */
   align-items: flex-start;
+  padding-left: 10%;
     /* margin: auto; */
   }
 
