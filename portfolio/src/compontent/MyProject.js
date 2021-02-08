@@ -125,7 +125,7 @@ const MyProject = () => {
         
         <div className='p1' >
         <div className='p1-card' >
-        <a href='https://d.bridgestoprosperity.dev/main'>
+        <a href='https://labs28-bridges-d-fe.vercel.app/main'>
             <img className='p1-image' alt='bridges for prosperity' src={dataTable}  />
             </a>
             <div className='p1-body' >
@@ -134,7 +134,7 @@ const MyProject = () => {
                 Group Project for a non- profit, built &nbsp; with Context Api, Okta, React-Map-Gl, Material UI
               </h3>
               <div className='p1-button-group'>
-              <buton className= 'p1-button1' href='https://d.bridgestoprosperity.dev/main'>
+              <buton className= 'p1-button1' href='https://labs28-bridges-d-fe.vercel.app/maingity '>
                 App
               </buton>
             <button className= 'p1-button2' href="https://github.com/mrockingham/Labs28-Bridges-D-FE" variant="primary">
