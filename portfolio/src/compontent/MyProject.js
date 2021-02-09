@@ -171,7 +171,7 @@ const MyProject = () => {
                 <div className="p1-button-group">
                   <a
                     className="p1-button1"
-                    href="https://labs28-bridges-d-fe.vercel.app/maingity"
+                    href="https://labs28-bridges-d-fe.vercel.app/main"
                   >
                     {' '}
                     App
