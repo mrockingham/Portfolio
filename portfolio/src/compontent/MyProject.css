@@ -72,6 +72,9 @@ height: 80%;
   display: flex;
   justify-content: space-evenly;
 }
+a{
+  text-decoration: none;
+}
 .p1-button1{
   background-color: rgba(10, 10, 10, 0);
   
@@ -80,6 +83,7 @@ height: 80%;
   height: 50px;
   border-radius: 10%;
   color: white;
+  padding-top: 15px;
 }
 .p1-button2{
   background-color: rgba(10, 10, 10, 0);
@@ -88,6 +92,8 @@ height: 80%;
   height: 50px;
   border-radius: 10%;
   color: white;
+  padding-top: 15px;
+
 }
 .p1-image{
   width: 480px;
