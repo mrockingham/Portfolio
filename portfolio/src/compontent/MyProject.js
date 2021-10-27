@@ -8,6 +8,8 @@ import dad from '../img/dad-app.png';
 import dataTable from '../img/data.PNG';
 import amazonClone from '../img/amazonclone.PNG';
 import HRF from '../img/hrfpic.PNG';
+import deverNotes from '../img/devernotehome.PNG';
+import protectedhome from '../img/protecedhome.PNG';
 
 const MyProject = () => {
   const backColor = '#ffffff0e';
@@ -20,6 +22,77 @@ const MyProject = () => {
       </div>
       <ReactBootStrap.Container className="my-project">
         <div className="projects-flex1">
+          <div className="p1">
+            <div className="p1-card">
+              <a href="https://developer-notes-next-client.vercel.app/">
+                <img
+                  className="p1-image"
+                  variant="top"
+                  src={deverNotes}
+                  alt="Developer landing page"
+                />
+              </a>
+              <div className="p1-body">
+                <h2 className="p1-title">DeVerNotes</h2>
+                <h3 className="p1-info">
+                  An app to save, practice and develop coding skills. NextJs,
+                  OAuth, TypeScript, Chakra-ui, NodeJs, MongoDB,Jwt
+                </h3>
+                <div className="p1-button-group">
+                  <a
+                    className="p1-button1"
+                    href="https://developer-notes-next-client.vercel.app/"
+                    variant="primary"
+                  >
+                    App
+                  </a>
+                  <a
+                    className="p1-button2"
+                    href="https://github.com/mrockingham/human-rights-first-be-a"
+                    variant="primary"
+                  >
+                    Git
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="p1">
+            <div className="p1-card">
+              <a href="https://www.protected-app.com/">
+                <img
+                  className="p1-image"
+                  variant="top"
+                  src={protectedhome}
+                  alt="Protected app home page"
+                />
+              </a>
+              <div className="p1-body">
+                <h2 className="p1-title">Protected</h2>
+                <h3 className="p1-info">
+                  App design to facilitate better interactions between officers
+                  and Citizens. React, TypeScript, GoogleMaps, Chakra-ui,
+                  Cypress, NodeJs, MongoDB
+                </h3>
+                <div className="p1-button-group">
+                  <a
+                    className="p1-button1"
+                    href="https://www.protected-app.com/"
+                    variant="primary"
+                  >
+                    App
+                  </a>
+                  <a
+                    className="p1-button2"
+                    href="https://github.com/mrockingham/human-rights-first-be-a"
+                    variant="primary"
+                  >
+                    Git
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
           <div className="p1">
             <div className="p1-card">
               <a href="https://a.humanrightsfirst.dev/">
@@ -72,7 +145,11 @@ const MyProject = () => {
                   Google Firebase, and Google Authentication.
                 </h3>
                 <div className="p1-button-group">
-                  <a href="https://clone-72250.firebaseapp.com/"  className="p1-button1" variant="primary">
+                  <a
+                    href="https://clone-72250.firebaseapp.com/"
+                    className="p1-button1"
+                    variant="primary"
+                  >
                     App
                   </a>
                   <a
