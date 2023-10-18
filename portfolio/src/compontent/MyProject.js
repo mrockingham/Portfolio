@@ -142,7 +142,7 @@ const MyProject = () => {
                 <h2 className="p1-title">Amazon Clone</h2>
                 <h3 className="p1-info">
                   Amazon like app, built with React, Context-Api, Material-ui,
-                  Google Firebase, and Google Authentication.
+                  Google Firebase and Authentication.
                 </h3>
                 <div className="p1-button-group">
                   <a
