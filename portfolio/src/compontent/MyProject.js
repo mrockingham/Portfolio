@@ -8,8 +8,9 @@ import dad from '../img/dad-app.png';
 import dataTable from '../img/data.PNG';
 import amazonClone from '../img/amazonclone.PNG';
 import HRF from '../img/hrfpic.PNG';
-import deverNotes from '../img/devernotehome.PNG';
+import deverNotes from '../img/devernotemain2.png';
 import protectedhome from '../img/protecedhome.PNG';
+import travelblog from '../img/travelblosmain.png';
 
 const MyProject = () => {
   const backColor = '#ffffff0e';
@@ -23,25 +24,65 @@ const MyProject = () => {
       <ReactBootStrap.Container className="my-project">
         <div className="projects-flex1">
           <div className="p1">
+            <div
+              className="p1-card"
+              style={{ display: 'flex', flexDirection: 'column' }}
+            >
+              <div>
+                <a href="https://devernote.com">
+                  <img
+                    className="p1-image"
+                    variant="top"
+                    src={deverNotes}
+                    alt="Developer landing page"
+                  />
+                </a>
+                <div className="p1-body">
+                  <h2 className="p1-title">DeVerNotes</h2>
+                  <h3 className="p1-info">
+                    An app to save, practice and develop coding skills. NextJs,
+                    OAuth, TypeScript, Chakra-ui, NodeJs, MongoDB,Jwt
+                  </h3>
+                  <div className="p1-button-group">
+                    <a
+                      className="p1-button1"
+                      href="https://developer-notes-next-client.vercel.app/"
+                      variant="primary"
+                    >
+                      App
+                    </a>
+                    <a
+                      className="p1-button2"
+                      href="https://github.com/mrockingham/human-rights-first-be-a"
+                      variant="primary"
+                    >
+                      Git
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="p1">
             <div className="p1-card">
-              <a href="https://developer-notes-next-client.vercel.app/">
+              <a href="https://travel-blog-front.vercel.app/">
                 <img
                   className="p1-image"
                   variant="top"
-                  src={deverNotes}
-                  alt="Developer landing page"
+                  src={travelblog}
+                  alt="Travel Blog home page"
                 />
               </a>
               <div className="p1-body">
-                <h2 className="p1-title">DeVerNotes</h2>
+                <h2 className="p1-title">CMS Travel-Blog</h2>
                 <h3 className="p1-info">
-                  An app to save, practice and develop coding skills. NextJs,
-                  OAuth, TypeScript, Chakra-ui, NodeJs, MongoDB,Jwt
+                  Travel update, pictures, content, and UI through the app.
+                  React, TypeScript, Chakra-ui, NodeJs, MongoDB, AppWrite
                 </h3>
                 <div className="p1-button-group">
                   <a
                     className="p1-button1"
-                    href="https://developer-notes-next-client.vercel.app/"
+                    href="https://travel-blog-front.vercel.app/"
                     variant="primary"
                   >
                     App
@@ -57,43 +98,7 @@ const MyProject = () => {
               </div>
             </div>
           </div>
-          <div className="p1">
-            <div className="p1-card">
-              <a href="https://www.protected-app.com/">
-                <img
-                  className="p1-image"
-                  variant="top"
-                  src={protectedhome}
-                  alt="Protected app home page"
-                />
-              </a>
-              <div className="p1-body">
-                <h2 className="p1-title">Protected</h2>
-                <h3 className="p1-info">
-                  App design to facilitate better interactions between officers
-                  and Citizens. React, TypeScript, GoogleMaps, Chakra-ui,
-                  Cypress, NodeJs, MongoDB
-                </h3>
-                <div className="p1-button-group">
-                  <a
-                    className="p1-button1"
-                    href="https://www.protected-app.com/"
-                    variant="primary"
-                  >
-                    App
-                  </a>
-                  <a
-                    className="p1-button2"
-                    href="https://github.com/mrockingham/human-rights-first-be-a"
-                    variant="primary"
-                  >
-                    Git
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="p1">
+          {/* <div className="p1">
             <div className="p1-card">
               <a href="https://a.humanrightsfirst.dev/">
                 <img
@@ -127,8 +132,8 @@ const MyProject = () => {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="p1">
+          </div> */}
+          {/* <div className="p1">
             <div className="p1-card">
               <a href="https://clone-72250.firebaseapp.com/">
                 <img
@@ -162,7 +167,7 @@ const MyProject = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
 
           <div className="p1">
             <div className="p1-card">
@@ -248,7 +253,7 @@ const MyProject = () => {
                 <div className="p1-button-group">
                   <a
                     className="p1-button1"
-                    href="https://labs28-bridges-d-fe.vercel.app/main"
+                    href="https://labs28-bridges-d-fe.vercel.app/data"
                   >
                     {' '}
                     App
@@ -256,7 +261,7 @@ const MyProject = () => {
 
                   <a
                     className="p1-button2"
-                    href="https://github.com/mrockingham/Labs28-Bridges-D-FE"
+                    href="https://labs28-bridges-d-fe.vercel.app/data"
                     variant="primary"
                   >
                     Git
