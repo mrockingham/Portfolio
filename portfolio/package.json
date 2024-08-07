@@ -41,15 +41,6 @@
       "last 1 safari version"
     ]
   },
-  "babel": {
-    "presets": [
-      "@babel/preset-env",
-      "@babel/preset-react"
-    ],
-    "parserOpts": {
-      "throwIfNamespace": false
-    }
-  },
   "devDependencies": {
     "@babel/core": "^7.25.2",
     "@babel/preset-env": "^7.25.3",
