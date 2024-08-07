@@ -46,7 +46,7 @@ const MyProject = () => {
                   <div className="p1-button-group">
                     <a
                       className="p1-button1"
-                      href="https://developer-notes-next-client.vercel.app/"
+                      href="https://devernote.com"
                       variant="primary"
                     >
                       App
