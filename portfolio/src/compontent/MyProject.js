@@ -1,15 +1,13 @@
 import React, { useRef } from 'react';
 import './MyProject.css';
 import * as ReactBootStrap from 'react-bootstrap';
-import expense from '../img/osfowe.png';
-import Slack from '../img/slack-app.PNG';
+
 import conway from '../img/conway.PNG';
 import dad from '../img/dad-app.png';
 import dataTable from '../img/data.PNG';
-import amazonClone from '../img/amazonclone.PNG';
-import HRF from '../img/hrfpic.PNG';
+
 import deverNotes from '../img/devernotemain2.png';
-import protectedhome from '../img/protecedhome.PNG';
+import mustangUnleashed from '../img/munleashed.png';
 import travelblog from '../img/travelblosmain.png';
 
 const MyProject = () => {
@@ -58,6 +56,40 @@ const MyProject = () => {
                     >
                       Git
                     </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="p1">
+            <div
+              className="p1-card"
+              style={{ display: 'flex', flexDirection: 'column' }}
+            >
+              <div>
+                <a href="https://mustangunleashed.com/home">
+                  <img
+                    className="p1-image"
+                    variant="top"
+                    src={mustangUnleashed}
+                    alt="Mustang Unleashed page"
+                  />
+                </a>
+                <div className="p1-body">
+                  <h2 className="p1-title">Mustang Unleashed</h2>
+                  <h3 className="p1-info">
+                    App for Mustang enthusiasts. NextJs, OAuth, TypeScript,
+                    React, Ionic, Laravel-PHP, Zustand, MapBox, GoogleMaps, AWS
+                  </h3>
+                  <div className="p1-button-group">
+                    <a
+                      className="p1-button1"
+                      href="https://mustangunleashed.com/home"
+                      variant="primary"
+                    >
+                      App
+                    </a>
+            
                   </div>
                 </div>
               </div>
