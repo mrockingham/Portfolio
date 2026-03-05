@@ -37,7 +37,7 @@ const Header = () => {
               Projects
             </ReactBootStrap.Nav.Link>
             <ReactBootStrap.Nav.Link
-              href="https://docs.google.com/document/d/1KPUMMgg27TQGrf_xddJFV2siCKHmHAXTMO3KJcuwh20/edit?usp=sharing"
+              href="https://docs.google.com/document/d/1FmIC0C6My5ShWXl39ivQOHyqsa9KT85DmhnFfe0by_s/edit?usp=sharing"
               style={{ marginRight: '5%', color: 'white' }}
             >
               Resume
