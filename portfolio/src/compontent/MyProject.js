@@ -9,6 +9,8 @@ import dataTable from '../img/data.PNG';
 import deverNotes from '../img/devernotemain2.png';
 import mustangUnleashed from '../img/munleashed.png';
 import travelblog from '../img/travelblosmain.png';
+import svrImg from '../img/svrimg.png';
+
 
 const MyProject = () => {
   const backColor = '#ffffff0e';
@@ -97,31 +99,30 @@ const MyProject = () => {
           </div>
           <div className="p1">
             <div className="p1-card">
-              <a href="https://travel-blog-front.vercel.app/">
+              <a href="https://specialvehicleregistry.com/">
                 <img
                   className="p1-image"
                   variant="top"
-                  src={travelblog}
+                  src={svrImg}
                   alt="Travel Blog home page"
                 />
               </a>
               <div className="p1-body">
-                <h2 className="p1-title">CMS Travel-Blog</h2>
+                <h2 className="p1-title">Ford Mustang Registry</h2>
                 <h3 className="p1-info">
-                  Travel update, pictures, content, and UI through the app.
-                  React, TypeScript, Chakra-ui, NodeJs, MongoDB, AppWrite
+                  Offical Ford Website for Mustang Vehicle Registry
                 </h3>
                 <div className="p1-button-group">
                   <a
                     className="p1-button1"
-                    href="https://travel-blog-front.vercel.app/"
+                    href="https://specialvehicleregistry.com/"
                     variant="primary"
                   >
                     App
                   </a>
                   <a
                     className="p1-button2"
-                    href="https://github.com/mrockingham/human-rights-first-be-a"
+                    href="https://specialvehicleregistry.com/"
                     variant="primary"
                   >
                     Git
